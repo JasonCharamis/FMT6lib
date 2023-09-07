@@ -1,4 +1,4 @@
-❯ more ~/bin/fmt6.py
+
 import argparse
 import re
 from natsort import natsorted

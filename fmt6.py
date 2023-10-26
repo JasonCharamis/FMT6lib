@@ -254,7 +254,6 @@ def main():
             else:
                 print ( "Please provide a gene list." )
 
-
         else:
             print("Please provide an option.")
 

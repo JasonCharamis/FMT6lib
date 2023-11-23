@@ -185,7 +185,7 @@ class FMT6:
 
 ## Implementation ##
 
-def kargs():
+def parse_arguments():
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description='Library for efficiently manipulating blast outfmt6 files.')
     parser = argparse.ArgumentParser()
@@ -220,7 +220,7 @@ def kargs():
 def main():
     
     parser = argparse.ArgumentParser(description='Library for efficiently manipulating fmt6 files.')
-    args = kargs()
+    args = parse_arguments()
     
     if args.fmt6:
         

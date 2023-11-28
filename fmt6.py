@@ -2,8 +2,7 @@
 import argparse
 import re
 from natsort import natsorted
-import os
-
+import os 
 
 class FMT6:
 

@@ -95,7 +95,8 @@ class FMT6:
         return hits
 
 
-     def filter_fmt6(fmt6_file, cutoff):
+    def filter_fmt6(fmt6_file, cutoff):
+
         """
         Parse fmt6 format, filter based on identity cutoff, and sort based on the selected field.
 
